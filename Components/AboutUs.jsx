@@ -1,10 +1,10 @@
-import aboutImg from "../../public/aboutRandomImage.png";
+import aboutImg from "../public/aboutRandomImage.png";
 import Image from "next/image";
 const AboutUs = () => {
   return (
     <>
       <div className="bg-[#00283C] w-full justify-center items-center flex flex-col gap-12 ">
-        <p className="text-white text-center text-[14px] font-bold pt-40">
+        <p className="text-white text-center text-[14px] font-bold pt-28">
           ABOUT
         </p>
         <div className="flex flex-col text-white justify-center items-center gap-8">
@@ -19,7 +19,7 @@ const AboutUs = () => {
             sint asperiores voluptatum consequatur quae, labore quam? Dolorum
             odit provident quos odio delectus?
           </p>
-          <button className="rounded-full px-5 py-5 text-black font-bold bg-blue-400 hover:bg-[#00283C] hover:border-2 hover:border-white hover:text-white">
+          <button className="rounded-full px-5 py-5 text-black font-bold bg-blue-400 border-2 border-blue-500 hover:bg-[#00283C] hover:border-2 hover:border-white hover:text-white">
             Lorem, ipsum dolor.
           </button>
           <Image

@@ -1,4 +1,4 @@
-import { heroData } from "../(utils)/heroData";
+import { heroData } from "../utils/heroData";
 
 const HeroContent = ()=>{
     return(
