@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="w-full bg-[#00283C] flex justify-around items-center gap-10 drop-shadow-xl">
       {/* logo */}
-      <div className="text-xl p-5 text-white ">Job Portal</div>
+      <div className="text-xl p-5 text-white "><Link href="/">Job Portal</Link></div>
 
       {/* Navbar titles */}
       <div className="flex gap-12 text-lg text-white justify-center items-center">

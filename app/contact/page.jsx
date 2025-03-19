@@ -1,3 +1,4 @@
+import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 
 const Contact = () => {
@@ -89,29 +90,11 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
 
 export default Contact;
 
-{
-  /* <div className="">
-                  <div className="">
-                      <p className="">Let's get in touch</p>
-                      <p className="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit laboriosam fuga tempora modi nostrum unde odio eveniet minima distinctio repudiandae.</p>
-                  </div>
-                  <div className="">
-                      <p className="">For more details</p>
-                      <div className="">
-                          <p className="">Contact number</p>
-                          <p className="">7897897890</p>
-                          <p className="">General</p>
-                          <p className="">info@lorem.com</p>
-                      </div>
-                  </div>
-                  <div className="">
-                      
-                  </div>
-              </div> */
-}
+
