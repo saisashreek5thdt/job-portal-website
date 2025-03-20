@@ -1,5 +1,4 @@
-import Image from "next/image";
-import aboutImage from "../public/makes1.jpg";
+import aboutImage from "../assets/makes1.jpg";
 const MakesUs = () => {
   return (
     <>
@@ -16,7 +15,7 @@ const MakesUs = () => {
         {/* left Image */}
         <div className="flex pr-10 pt-20 gap-20">
           <div className="">
-            <Image
+            <img
               className="rounded-lg "
               src={aboutImage}
               width={1600}
@@ -51,7 +50,7 @@ const MakesUs = () => {
             </p>
           </div>
           <div className="">
-            <Image
+            <img
               className="rounded-lg "
               src={aboutImage}
               width={1600}
@@ -64,7 +63,7 @@ const MakesUs = () => {
         {/* Left Image */}
         <div className="flex pr-10 pt-20 gap-20">
           <div className="">
-            <Image
+            <img
               className="rounded-lg "
               src={aboutImage}
               width={1600}
@@ -100,7 +99,7 @@ const MakesUs = () => {
             </p>
           </div>
           <div className="">
-            <Image
+            <img
               className="rounded-lg "
               src={aboutImage}
               width={1600}

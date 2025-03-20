@@ -1,18 +1,16 @@
-"use client";
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 const Header = () => {
 
   return (
     <div className="w-full bg-[#00283C] flex justify-around items-center gap-10 drop-shadow-xl">
       {/* logo */}
-      <div className="text-xl p-5 text-white "><Link href="/">Job Portal</Link></div>
+      <div className="text-xl p-5 text-white "><Link to="/">Job Portal</Link></div>
 
       {/* Navbar titles */}
       <div className="flex gap-12 text-lg text-white justify-center items-center">
-        <Link href="/about">About</Link>
-        <Link href="/">Services</Link>
-        <Link href="/contact">Contact us</Link>
+        <Link to="/about">About</Link>
+        <Link to="/">Services</Link>
+        <Link to="/contact">Contact us</Link>
       </div>
       {/* contact details */}
       <div className="flex flex-col gap-5 p-5">

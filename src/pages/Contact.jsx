@@ -1,10 +1,6 @@
-import Footer from "@/Components/Footer";
-import Header from "@/Components/Header";
-
 const Contact = () => {
   return (
     <>
-      <Header />
       <div className="bg-white min-h-screen pl-20">
         <div className="container mx-auto px-4 py-8">
           {/* Header Section */}
@@ -90,7 +86,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer/>
     </>
   );
 };

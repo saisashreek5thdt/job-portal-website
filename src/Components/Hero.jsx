@@ -1,5 +1,4 @@
-import heroImg from "../public/hiring1.jpg";
-import Image from "next/image";
+import heroImg from "../assets/hiring1.jpg";
 import HeroContent from "./HeroContent";
 const Hero = () => {
     return (
@@ -7,7 +6,7 @@ const Hero = () => {
             <div className="bg-[#00283C] w-full">
                 {/* Image */}
                 <div className="flex items-center justify-center ">
-                    <Image
+                    <img
                         className="rounded-lg "
                         src={heroImg}
                         width={1600}

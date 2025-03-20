@@ -1,5 +1,4 @@
-import aboutImage from "../public/aboutImage.jpg";
-import Image from "next/image";
+import aboutImage from "../assets/aboutImage.jpg";
 const OurStory = () => {
   return (
     <>
@@ -24,7 +23,7 @@ const OurStory = () => {
       </div>
 
       <div className="pt-40">
-        <Image
+        <img
           className="rounded-lg "
           src={aboutImage}
           width={1536}

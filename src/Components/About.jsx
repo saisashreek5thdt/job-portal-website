@@ -1,5 +1,5 @@
-import Image from "next/image";
-import aboutImg from "../public/ease_img.jpg"
+
+import aboutImg from "../assets/ease_img.jpg"
 const About = () => {
     return (
         <>
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
                 <div className="w-1/2">
                     <div className="flex items-center justify-center pt-40">
-                        <Image
+                        <img
                             className="rounded-full "
                             src={aboutImg}
                             width={600}

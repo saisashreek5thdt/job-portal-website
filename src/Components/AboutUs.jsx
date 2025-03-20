@@ -1,5 +1,4 @@
-import aboutImg from "../public/aboutRandomImage.png";
-import Image from "next/image";
+import aboutImg from "../assets/aboutRandomImage.png";
 const AboutUs = () => {
   return (
     <>
@@ -22,7 +21,7 @@ const AboutUs = () => {
           <button className="rounded-full px-5 py-5 text-black font-bold bg-blue-400 border-2 border-blue-500 hover:bg-[#00283C] hover:border-2 hover:border-white hover:text-white">
             Lorem, ipsum dolor.
           </button>
-          <Image
+          <img
             className="-mt-10 "
             src={aboutImg}
             width={600}
